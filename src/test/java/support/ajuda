@@ -1,0 +1,36 @@
+
+    montando RUNNER
+
+        plugin = {},                                      // utilizado para colocar caminho para evidencias
+        features = "src/test/resources/features",         // utilizado apra colocar caminho da feature
+        tags = {""},                                      //nome dado ao teste , colocar entre aspas para rodar o teste escolhido
+        glue = {"steps"}
+
+         public static WebDriver driver;                       // para funcionar precisa instaciar no pag e stps
+
+            @BeforeClass                                          // roda antes de tudo
+            public static void start() {
+                driver = new ChromeDriver();
+
+            }
+
+            @AfterClass                                            // roda no final de tudo
+            public static void stop() {
+                driver.quit();
+
+
+ *********************************************************************************************************************
+
+ PRIVATE=== quer dizer que a varivel esta disponoivel apenas naquela classe
+
+
+ ***************************************************************************
+ foi cria um e-mail RANDOM= onde é passado uma string com inicio de um email e final do email, e no meio um numero aleatorio
+ Onde é feito com dua variaveis de controle
+
+ *************************
+ public = pode ser acessada de outras classes
+ static = retorna algo
+
+
+
