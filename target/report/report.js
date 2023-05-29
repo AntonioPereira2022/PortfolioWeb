@@ -59,49 +59,49 @@ formatter.match({
   "location": "LoginStep.que_eu_esteja_na_tela_inicial_do_practice()"
 });
 formatter.result({
-  "duration": 10614413200,
+  "duration": 13307732200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.clico_em_sign()"
 });
 formatter.result({
-  "duration": 1343601100,
+  "duration": 1489889700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.preencho_email_valido()"
 });
 formatter.result({
-  "duration": 288519600,
+  "duration": 224089100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.clico_em_create_an_accont()"
 });
 formatter.result({
-  "duration": 176624200,
+  "duration": 173067301,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroStep.preencho_os_dados_solicitados()"
 });
 formatter.result({
-  "duration": 8904950800,
+  "duration": 8787231900,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroStep.clico_em_save()"
 });
 formatter.result({
-  "duration": 1363276900,
+  "duration": 1449977000,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroStep.vejo_nome_cadastrado_com_sucesso()"
 });
 formatter.result({
-  "duration": 125933200,
+  "duration": 141032399,
   "status": "passed"
 });
 });

@@ -7,8 +7,8 @@ import runner.RunnerWeb;
 
 public class CadastroStep extends RunnerWeb {
     CadastroPage cadastroPage = new CadastroPage();
-    String nome = "alves";
-    String sobrenome = "pereira";
+    String nome = "Alves";
+    String sobrenome = "Pereira";
 
 
     @Quando("^preencho os dados solicitados$")
