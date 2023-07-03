@@ -16,7 +16,7 @@ public class RunnerWeb extends RunBase{
 
     @AfterClass
     public static void stop(){
-       //driver.quit();
+       driver.quit();
     }
 
 }
