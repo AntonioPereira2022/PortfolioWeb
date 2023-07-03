@@ -59,49 +59,57 @@ formatter.match({
   "location": "LoginStep.que_eu_esteja_na_tela_inicial_do_practice()"
 });
 formatter.result({
-  "duration": 13307732200,
+  "duration": 14968978800,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.clico_em_sign()"
 });
 formatter.result({
-  "duration": 1489889700,
+  "duration": 2065483500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.preencho_email_valido()"
 });
 formatter.result({
-  "duration": 224089100,
+  "duration": 372582700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.clico_em_create_an_accont()"
 });
 formatter.result({
-  "duration": 173067301,
+  "duration": 247355800,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroStep.preencho_os_dados_solicitados()"
 });
 formatter.result({
-  "duration": 8787231900,
+  "duration": 10546789200,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroStep.clico_em_save()"
 });
 formatter.result({
-  "duration": 1449977000,
+  "duration": 1291892500,
   "status": "passed"
 });
 formatter.match({
   "location": "CadastroStep.vejo_nome_cadastrado_com_sucesso()"
 });
 formatter.result({
-  "duration": 141032399,
+  "duration": 218707900,
   "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "",
+  "description": "",
+  "id": "acessar-site-automationpractece;",
+  "type": "scenario",
+  "keyword": "Cenario"
 });
 });

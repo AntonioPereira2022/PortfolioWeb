@@ -10,3 +10,5 @@ Funcionalidade: acessar site automationpractece
     E preencho os dados solicitados
     E clico em save
     Entao vejo nome cadastrado com sucesso
+
+    Cenario: 
